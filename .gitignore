@@ -1,3 +1,7 @@
 //https://www.taniarascia.com/how-to-use-webpack/
 /node_modules
 node_modules
+//<span>Photo by <a href="https://unsplash.com/@joncrews?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jonathan Crews</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+//<span>Photo by <a href="https://unsplash.com/@bebebel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bel Ragay</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+//Bird pic <span>Photo by <a href="https://unsplash.com/@dfkt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">dfkt</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+//Sparkler <span>Photo by <a href="https://unsplash.com/@amin_vfx?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">amin tn</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>

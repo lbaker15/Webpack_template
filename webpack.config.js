@@ -40,6 +40,18 @@ module.exports = {
         test: /\.(scss|css)$/,
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
+      {
+        test: /\.(png|jpe?g|gif|jpg|jpeg)$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: 'imagesNew',
+          name: '[name].[ext]'
+        },
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
+      },
     ],
   },
 };

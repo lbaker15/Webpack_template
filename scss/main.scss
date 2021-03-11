@@ -5,3 +5,273 @@ html {
   font-size: $font-size;
   color: $font-color;
 }
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+#trig2 {
+  position: absolute;
+  margin-top: 400vh;
+  background: green; width: 100px; height: 10px;
+}
+#container {
+  width: 100%;
+  height: 100vh; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: -1;
+  overflow: hidden;
+}
+.trig {
+  margin-top: 0; position: absolute;
+}
+.panel0 {
+  width: 100%;
+  height: 110vh;
+  position: fixed; top: 0;
+  transform-origin: top;
+  overflow: hidden;
+}
+#zero {
+  width: 100%;
+  height: 110vh;
+  background-image: url('../imagesNew/mountain.jpg');
+  filter: grayscale(100%) contrast(60%);
+  background-size: cover; background-position: center;
+  color: white; text-align: center;
+  font-size: 100px;
+  z-index: -1;
+}
+.extraImg2 {
+  z-index: 1;
+  visibility: hidden;
+}
+.zeroPng {
+  width: 100%;
+  height: 110vh;
+  background-image: url('../imagesNew/mount.png');
+  filter: grayscale(100%) contrast(60%);
+  background-size: cover; background-position: center;
+  z-index: 900;
+  margin-top: 0vh;
+  position: fixed; top: 0vh; left: 0;
+  visibility: hidden;
+}
+.cloud {
+  background-image: url('../imagesNew/hot.png');
+  background-size: cover; background-position: center;
+  width: 150px;
+  height: 200px;
+  margin-top: 150px;
+  margin-left: 75px;
+  opacity: 0.9; 
+  position:relative;
+}
+.cloud2 {
+  background-image: url('../imagesNew/hot.png');
+  background-size: cover; background-position: center;
+  width: 75px;
+  height: 100px;
+  position:relative;
+  margin-top: -300px;
+  margin-left: 36vw;
+  opacity: 0.9;
+}
+.cloud3 {
+  background-image: url('../imagesNew/hot.png');
+  background-size: cover; background-position: center;
+  width: 90px;
+  height: 110px;
+  margin-top: 50px;
+  margin-left: 59vw;
+  opacity: 0.9;
+  position:relative;
+}
+.cloud4 {
+  background-image: url('../imagesNew/hot.png');
+  background-size: cover; background-position: center;
+  width: 110px;
+  height: 140px;
+  margin-top: -250px;
+  margin-left: 82.5vw;
+  opacity: 0.85;
+  position:relative;
+}
+.cloud5 {
+  background-image: url('../imagesNew/hot.png');
+  background-size: cover; background-position: center;
+  width: 110px;
+  height: 140px;
+  margin-top: 95px;
+  margin-left: 33.5vw;
+  opacity: 0.85;
+  position:relative;
+}
+.cloud6 {
+  background-image: url('../imagesNew/hot.png');
+  background-size: cover; background-position: center;
+  width: 110px;
+  height: 140px;
+  margin-top: -20px;
+  margin-left: 82.5vw;
+  opacity: 0.85;
+  position:relative;
+}
+.cloud7 {
+  background-image: url('../imagesNew/hot.png');
+  background-size: cover; background-position: center;
+  width: 110px;
+  height: 140px;
+  margin-top: -40px;
+  margin-left: 22.5vw;
+  opacity: 0.85;
+  position:relative;
+}
+.cloud8 {
+  background-image: url('../imagesNew/hot.png');
+  background-size: cover; background-position: center;
+  width: 70px;
+  height: 90px;
+  margin-top: -220px;
+  margin-left: 58vw;
+  opacity: 0.8;
+  position:relative;
+}
+
+
+
+// .cloud4 {
+//   background-image: url('../imagesNew/tryit.png');
+//   background-size: cover; background-position: center;
+//   width: 950px; position:relative;
+//   height: 500px;
+//   margin-top: -175px;
+//   margin-left: 50vw;
+//   opacity: 0.2;
+//   transform: rotate(-100deg);
+// }
+// .cloud5 {
+//   background-image: url('../imagesNew/tryit.png');
+//   background-size: cover; background-position: center;
+//   width: 950px; position:relative;
+//   height: 500px;
+//   transform: rotate(205deg); margin-top: -750px; margin-left: 10vw; opacity: 0.15;
+// }
+// .cloud6 {
+//   background-image: url('../imagesNew/tryit.png');
+//   background-size: cover; background-position: center;
+//   width: 850px; position: relative;
+//   height: 500px;
+//   transform: rotate(-35deg); margin-top: 25px; margin-left: 35vw; opacity: 0.25;
+// }
+.panel1 {
+  width: 100%;
+  height: 110vh;
+  position: fixed; top: 0;
+  transform-origin: top;
+  overflow: hidden;
+}
+#one {
+  width: 100%;
+  height: 110vh;
+  background-image: url('../imagesNew/99.jpg');
+  background-size: cover; background-position: center;
+  color: white; text-align: center;
+  font-size: 100px;
+}
+.panel2 {
+  width: 100%;
+  height: 110vh;
+  position: fixed; top: 0;
+  transform-origin: top;
+  overflow: hidden;
+}
+.extraImg {
+  width: 100%; height: 130vh;
+  // background-image: url('../imagesNew/ee2.png'); 
+  background-size: cover;
+  position: absolute; z-index: 100;
+  bottom:0; transform-origin: top; 
+  opacity: 1;
+}
+.snowflake1 {
+  background-image: url('../imagesNew/ee5.png');
+  background-size: cover;
+  width: 225px; height: 225px; position: relative; opacity: 0.8;
+  margin-top: 500px; margin-left: 12.5vw; transform: rotate(-40deg);
+}
+.f2 {
+  background-image: url('../imagesNew/post4.png');
+  background-size: cover;
+  width: 150px; height: 150px;
+  position: relative; opacity: 0.8;
+  margin-top: -650px; margin-left: 5vw; transform: rotate(190deg)
+}
+.f3 {
+  background-image: url('../imagesNew/post4.png');
+  background-size: cover;
+  width: 165px; height: 165px;
+  position: relative; opacity: 0.7;
+  margin-top: -100px; margin-left: 77.5vw; transform: rotate(0deg)
+}
+.f4 {
+  background-image: url('../imagesNew/post4.png');
+  background-size: cover;
+  width: 120px; height: 120px;
+  position: relative; opacity: 0.8;
+  margin-top: 200px; margin-left: 80vw; transform: rotate(100deg)
+}
+.f5 {
+  background-image: url('../imagesNew/post4.png');
+  background-size: cover;
+  width: 120px; height: 120px;
+  position: relative; opacity: 0.65;
+  margin-top: -250px; margin-left: 30vw; transform: rotate(200deg)
+}
+#two {
+  width: 100%;
+  height: 110vh;
+  background-image: url('../imagesNew/321.jpg');
+  filter: grayscale(95%) brightness(50%);
+  background-size: cover; background-position: center;
+  color: white; text-align: center;
+  font-size: 100px;
+}
+.panel3 {
+  width: 100%;
+  height: 110vh;
+  position: fixed; top: 0;
+  transform-origin: top;
+  overflow: hidden;
+}
+#three {
+  width: 100%;
+  height: 110vh;
+  background-image: url('../imagesNew/1.jpg');
+  background-size: cover; background-position: center;
+  color: white; text-align: center;
+  font-size: 100px;
+}
+.title {
+  color: white; 
+  font-size: 38px;
+  float:left; font-family: poppins, sans-serif; 
+  text-transform: uppercase;
+  font-weight: 200;
+  width: 620px;
+  text-align: left;  line-height: 50px;
+  margin-top: 60px;
+  margin-left: 4vw;
+}
+.someInfo {
+  color: white; 
+  font-size: 24px;
+  float:left; font-family: poppins, sans-serif; 
+  margin-top: 112.5px;
+  margin-left: 4vw;
+  position: absolute;
+}
+
+
